@@ -4,7 +4,7 @@ import React from 'react'
 const Input = ({ title, setTitle, tagline, setTagLine, body, setBody, data, setData }) => {
   const addNotes = (e) => {
     e.preventDefault()
-    if (title == "" && tagline == "" && body == "") {
+    if (title === "" && tagline === "" && body === "") {
       alert("No notes are added")
     } else {
       setData((data) => {
