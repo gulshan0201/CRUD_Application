@@ -4,7 +4,7 @@ const Note = ({e, data, setData, seteditdata}) => {
   
   const editHandler =(id) => {
     seteditdata(id)
-    data.filter((element) => {
+    data.filter(element => {
       if(element.id === id){
         document.getElementById("edittitle").value=element.title
         document.getElementById("edittagline").value=element.tagline
@@ -14,7 +14,7 @@ const Note = ({e, data, setData, seteditdata}) => {
   }
 
   const removeHandler = (id) => {
-   const newData = data.filter((element) => {
+   const newData = data.filter(element => {
       if(element.id !== id){
         return element
       }
