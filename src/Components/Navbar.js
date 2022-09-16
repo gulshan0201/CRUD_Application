@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-info">
         <div className="container justify-content-center">
-          <p className="navbar-brand"> <h2> NoteKeeper Application </h2></p>
+          <h2 className="navbar-brand">  NoteKeeper Application </h2>
 
         </div>
       </nav>
